@@ -1,0 +1,16 @@
+p {
+    font-size: 14px;
+    color: rgb(202, 8, 8);
+}
+
+.user {
+    padding: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  

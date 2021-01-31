@@ -1,0 +1,55 @@
+header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(7, 7, 94, 0.856);
+    color: white;
+    margin-bottom: 30px;
+}
+
+.todo-item{
+    margin-top: 18px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    border-radius: 10px;
+    align-items: center
+}
+form .container{
+    margin-bottom: 30px;
+}
+
+.fa-plus, .fa-trash-o, .fa-check{
+    pointer-events: none;
+}
+
+h4{
+    padding: 3px;
+}
+
+.deletebtn{
+    height: 40px;
+    margin-left: 3px;
+}
+
+.todo-item:hover{
+    box-shadow: 2px 2px 4px;
+}
+
+.completed{
+    text-decoration: line-through;
+    color: grey;
+}
+
+.completed:hover{
+    box-shadow: none;
+}
+
+.check-completed{
+    opacity: 70%;
+}
+
+li{
+    list-style: none;
+    display: flex;
+}
